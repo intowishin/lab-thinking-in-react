@@ -1,7 +1,7 @@
 
 const ProductRow = ({product}) => {
   return (
-    <div>
+    <div style={{color: !product.inStock && 'red'}}>
     {product.name}
     {product.price}
     </div>
